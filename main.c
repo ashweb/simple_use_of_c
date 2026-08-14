@@ -44,7 +44,7 @@ int main(){
  *   
  *   
  *
- * 1. STRING INPUT & `fgets()`
+ * 1. STRING INPUT & `fgets()
  *    - `fgets(str, sizeof(str), stdin)` reads full lines safely, including spaces.
  *    - `fgets()` stores the Enter key press as a newline character (`'\n'`).
  *    - Use condition `str[i] != '\0' && str[i] != '\n'` in your loop so `'\n'` 
