@@ -8,7 +8,7 @@ COUNTING HOW MUCH F DIFFERENT TYPES OF CHARS LIKE SPECIAL CHARS, VOWEL,CONSONENT
  *    - Use condition `str[i] != '\0' && str[i] != '\n'` in your loop so `'\n'` 
  *      isn't accidentally counted as a special character.
  *
- * 2. ASCII ARITHMETIC & CHARACTER TYPES
+ * 2. Ascii ARITHMETIC & CHARACTER TYPES
  *    - Characters are stored as ASCII numbers under the hood.
  *    - Uppercase to Lowercase: Add 32 (`'A'` is 65, `'a'` is 97 -> `ch += 32`).
  *    - Digit literals MUST use single quotes (`'0'` to `'9'`). 
