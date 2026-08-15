@@ -1,4 +1,5 @@
 //COUNTING NUMBER OF STUFFS IN A STRING//
+//hello branch "hello" is created to check the changes made in the main.c file
 
 
 #include <stdio.h>
@@ -11,6 +12,7 @@ int main(){
   
 
         printf("enter your statements : ");
+        
         fgets(new, sizeof(new),stdin);
     
     for (int i = 0 ; new[i] != '\0' && new[i] != '\n'; i++)
