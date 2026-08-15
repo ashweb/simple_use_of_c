@@ -7,7 +7,7 @@
 int vowels = 0, consonents= 0,spch = 0,spaces = 0,digits = 0;
 char new[1000];
 int main(){
-    //changes to check
+    
   
 
         printf("enter your statements : ");
